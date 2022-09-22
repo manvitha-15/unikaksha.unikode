@@ -1,0 +1,252 @@
+#series 1
+n=int(input())
+a=1
+for i in range(1,n+1):
+    a=i**2 
+    print(a,end=" ")    
+      
+#series 2
+a=6
+b=5
+n=int(input())
+print(a,end=" ")
+for i in range(2,n+1):
+    a=a+b
+    print(a,end=" ")
+    b=b+5
+
+#series 3
+n=int(input())
+a=3
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=a*3
+
+#series 4
+n=int(input())
+a=0.5
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=a*3
+
+#series 5
+a=11
+n=int(input())
+print(a**2,end=" ")
+for i in range(2,n+1):
+    a=a+4
+    print(a**2,end=" ")
+
+#series 6
+a=0
+x=2
+n=int(input())
+print(a,end=" ")
+for i in range(2,n+1):
+    a=((i**2)-x)
+    if x==1:
+       x=2
+    else:    
+       x=1    
+    print(a,end=" ")
+
+#series 7
+n=int(input())
+x=1 
+print(x) 
+y=2.0
+print(y)
+for i in range(1,n-1):
+    if(i%2!=0):
+        x=x*3.0
+        print(x)
+    else:
+        y=y*3.0
+        print(y)
+
+#series 8
+n=int(input())
+a=4
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=a+i*i
+
+#series 9
+n=int(input())
+a=2
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=(a*a)-1
+
+#series 10
+n=int(input())
+x=95.0
+y=20.5
+for i in range(1,n+1):
+    print(x)
+    x=x+y
+    y=y+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
