@@ -1,0 +1,67 @@
+#uppercase and lowercase
+s=str(input())
+upper=0
+for i in range(len(s)):
+    if s[i].isupper():
+        upper+=1
+lower=len(s)-upper
+print(upper)
+print(lower)
+
+#count the word and character
+str=input()
+a=str.split()
+c=len(a)
+print(c)
+print(len(str))
+
+#numbers of digits and letters in a string
+n=input()
+count1=0
+count2=0
+for i in n:
+    if i>='0' and i<='9':
+        count1=count1+1
+    else:
+        count2=count2+1
+print("Characters=",count2)
+print("Digits=",count1)
+
+#characters in ascending order
+n=input()
+str=''
+a=sorted(n)
+for i in a:
+    str=str+i
+print(str)
+
+#form a new string made
+n=input()
+for i in n:
+    c=n[:2]+n[-2]+n[-1]
+print(c)
+    
+#remove the nth index
+s=input()
+index=int(input())
+s1=""
+for i in range(len(s)):
+    if i!=idx:
+        s1+=s[i]
+print(s1)
+
+#replace all occurrences
+a=input()
+b=input()
+c=input()
+d=a.replace(b,c)
+print("Modified string",d)
+
+#remove the nth index character
+s=input()
+idx=int(input())
+s1=""
+for i in range(len(s)):
+    if i!=idx:
+        s1+=s[i]
+print(s1)
